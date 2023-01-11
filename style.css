@@ -1,0 +1,154 @@
+﻿*{
+
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	position: relative;
+	object-fit: cover;
+	position: relative;
+}
+
+.fame {
+	height: 100vh;
+	width: 100%;
+	background-position: relative;
+	background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(images/home.jpg);
+	background-position: center;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+ h1{
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		margin-top: 250px; 
+		color: white;
+		font-size: 30px;
+
+	}
+	p{
+		display: flex;
+		justify-content: center;
+		color:green;
+		margin: 10px;
+
+	}
+	
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 25px;
+	padding-right: 25px;
+
+
+
+}	
+button {
+	display: block;
+	font-size: 16px;
+		color:white;
+		outline: none;
+		border:2px green solid ;
+		border-radius: 10px;
+		background: transparent;
+		align-items: center;
+		padding: 5px 15px;
+		margin: 20px;
+		cursor: pointer;
+}
+
+.middle{
+	margin-top: 70px;
+
+}
+h4{
+
+	text-align: center;
+	font-size: 30px;
+}
+.container{
+	margin: 70px 0;
+}
+.box{
+
+	box-shadow: 0 0 10px rgb(37,73,214,0.18);
+	margin-bottom: 30px;
+	padding: 10px;
+
+}
+.row {
+
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+
+}
+.col-3 img{
+    width: 100%;
+
+    }
+
+.projects {
+	padding: 100px 0;
+	background-image:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(images/clock.jpg);
+	box-sizing: content-box;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+
+
+
+}
+.col-2{
+
+
+	flex-basis: 40%;
+	min-width: 250px;
+	justify-content: space-between;
+
+}
+.col-2 img{
+	width: 100%;
+	border-radius: 10px;
+	cursor:pointer;
+}
+.boxx{
+
+	box-shadow: 0 0 10px grey;
+	margin-bottom: 30px;
+	padding: 10px;
+
+}
+span{
+	color: white;
+}
+ h3{
+ 	position: absolute;
+ 	right: 42%;
+ 	bottom: 5%;
+ 	margin-bottom: 0;
+ 	text-align: center;
+ }
+ .footer{
+	background:grey;
+	color: black;
+	padding:20px;
+	
+
+ }
+ .foot p {
+
+	color: black;
+ }
